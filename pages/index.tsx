@@ -265,7 +265,6 @@ export default function Home() {
                 trace navigator docs
               </Link>
             </strong>
-            .
           </p>
           <p className={inter.className}>
             Manual performance instrumentation is demonstrated in the final
