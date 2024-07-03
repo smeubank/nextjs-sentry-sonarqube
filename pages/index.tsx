@@ -58,7 +58,7 @@ export default function Home() {
         style={{ display: "flex", flexDirection: "column", rowGap: "1rem" }}
       >
         <p className={inter.className}>
-          See how Sentry records unhandled exceptions in your code.
+          See how Sentry records unhandled exceptions in your code. And find out wth SonarQube is.
         </p>
         <div className={styles.description}>
           <p className={inter.className}>
