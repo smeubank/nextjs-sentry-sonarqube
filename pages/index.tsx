@@ -12,7 +12,9 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           New users instrument with:&nbsp;
-          <code className={styles.code}>npx @sentry/wizard -s -i nextjs</code>
+           <code className={styles.code}>
+             npx @sentry/wizard -s -i nextjs
+           </code>
         </p>
         <div>
           <a
@@ -58,7 +60,7 @@ export default function Home() {
         style={{ display: "flex", flexDirection: "column", rowGap: "1rem" }}
       >
         <p className={inter.className}>
-          See how Sentry records unhandled exceptions in your code.
+          See how Sentry records unhandled exceptions in your code. And find out wth SonarQube is.
         </p>
         <div className={styles.description}>
           <p className={inter.className}>
@@ -263,7 +265,6 @@ export default function Home() {
                 trace navigator docs
               </Link>
             </strong>
-            .
           </p>
           <p className={inter.className}>
             Manual performance instrumentation is demonstrated in the final
