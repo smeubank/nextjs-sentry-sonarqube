@@ -12,7 +12,9 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           New users instrument with:&nbsp;
-          <code className={styles.code}>npx @sentry/wizard -s -i nextjs</code>
+           <code className={styles.code}>
+             npx @sentry/wizard -s -i nextjs
+           </code>
         </p>
         <div>
           <a
